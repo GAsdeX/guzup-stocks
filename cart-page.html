@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Армавир</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_main.css">
+    <link rel="stylesheet" href="path/datepicker/css/pickmeup.css">
+    <link rel="stylesheet" href="path/fancybox/jquery.fancybox.css">
+
+</head>
+<body>
+<!--------HEADER-------------->
+    <header id="header">
+    <section class="head-top">
+        <div class="container clearfix">
+            <div class="push-left">
+                <a href="#"><img class="logo" src="images/logo.png" alt=""></a>
+                <p class="top-text Roboto300">Lorem ipsum dolor sit amet, nostrud periculis sit eu</p>
+            </div>
+
+            <div class="wether-enter push-right">
+                <a class="weather RobotoCons400" href="#">
+                    <img src="images/sun-cloud.png" alt="">
+                    <span class="weather-text">Облачно +32 <sup>&deg;</sup></span>
+                </a>
+                <a class="enter Roboto400 fancybox" href="#modal-registration">
+                    <img src="images/key.png" alt="">
+                    <span>войти</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="head-menu-substrate hide-menu hide-search-s">
+        <section class="menu">
+            <div class="relate container clearfix">
+                <div id="menu_btn" class="menu-btn">
+                    <span id="nav-toggle"><span></span></span>
+                    <!-- <span>Меню</span> -->
+                </div>
+
+                <div class="search-wrap push-right">
+                    <form action="">
+							<span class="search-ic_wrap">
+								<img src="images/search.png" alt="">
+							</span>
+                        <input class="search hide-search trans-delay02" type="text" placeholder="поиск">
+                    </form>
+                </div>
+
+                <ul class="main-menu RobotoCons400 hide-menu">
+                    <li><a href="#" class="active">заведения</a></li>
+                    <li><a href="#">события</a></li>
+                    <li><a href="#">акции</a></li>
+                    <li><a href="#">места</a></li>
+                    <li><a href="#">мероприятия</a></li>
+                </ul>
+
+
+
+            </div>
+        </section>
+    </section>
+</header>
+
+<!----------MAIN CONTENT----------------------------->
+	<main class="page">
+
+        <div class="container clearfix">
+
+            <div class="page_header clearfix">
+                <div class="push-left w50">
+                    <h2 class="page-title RobotoCons700">Заведения</h2>
+                </div>
+
+                <div class="push-right">
+                    <a href="#" class="btn-back">назад</a>
+                </div>
+
+            </div>
+
+            <div class="cart-place clearfix cart-item-wrapper">
+
+                <div class="cart-place_left clearfix">
+                    <div class="cart-place_left--photo">
+                        <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-big.png" alt=""></a>
+                        <div class="small-photo-wrapper">
+                            <div class="prev-small arrow-small"></div>
+
+                            <div class="wrapper-photo">
+                                <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-small.png" alt=""></a>
+                                <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-small.png" alt=""></a>
+                                <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-small.png" alt=""></a>
+                                <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-small.png" alt=""></a>
+                                <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-small.png" alt=""></a>
+                                <a href="images/img-big.png" class="fancybox" rel="group"><img src="images/img-small.png" alt=""></a>
+                            </div>
+
+                            <div class="next-small arrow-small"></div>
+                        </div>
+                    </div>
+                        <form class="form-votes clearfix">
+                            <label for="form-votes-1" class="ratting-checkbox">
+                                <input type="radio" id="form-votes-1" name="ratting-checkbox">
+                            </label>
+                            <label for="form-votes-2" class="ratting-checkbox">
+                                <input type="radio" id="form-votes-2" name="ratting-checkbox">
+                            </label>
+                            <label for="form-votes-3" class="ratting-checkbox">
+                                <input type="radio" id="form-votes-3" name="ratting-checkbox">
+                            </label>
+                            <label for="form-votes-4" class="ratting-checkbox">
+                                <input type="radio" id="form-votes-4" name="ratting-checkbox">
+                            </label>
+                            <label for="form-votes-5" class="ratting-checkbox">
+                                <input type="radio" id="form-votes-5" name="ratting-checkbox">
+                            </label>
+                            <button value="Голосовать" class="btn-submit-vote">Голосовать</button>
+                        </form>
+
+                        <div class="ratting-now">
+                            <p>Текущий рейтинг</p>
+                            <div class="place-circle">
+                                <span>6,3</span>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="cart-place-info clearfix">
+                    <div class="cart-place-info__header">
+                        <div class="logo-company dib">
+                            <img src="images/logo-company.png" alt="" class="img-responsive">
+                        </div>
+                        <h3 class="name-company dib">
+                            <span>california</span>
+                            <span>, </span>
+                            <span>cafe</span>
+                        </h3>
+                        <div class="btn-wrapper push-right">
+                            <a href="#" class="btn-letter"></a>
+                            <a href="#" class="btn-comment"></a>
+                        </div>
+                    </div>
+                    <div class="cart-place-info__contacts cart-place-info__block">
+                        <ul>
+                            <li><a href="#">г. Армавир, ул. Тургенева 144 </a></li>
+                            <li class="contacts-tel"><a href="tel:+7 (86137) 7‒04‒07">+7 (86137) 7‒04‒07</a> <span>единая справочная</span> </li>
+                            <li class="contacts-time"><span>Работает ежедневно 10:00–23:00</span></li>
+                        </ul>
+                    </div>
+                    <div class="cart-place-info__description cart-place-info__block">
+                        <h3 class="cart-place-info__title">описание</h3>
+                        <p>Небольшое уютное кафе в американском стиле, с бесплатным доступом в интернет, HD-телевидением и постоянным потоком друзей! Ассортимент наших блюд удивит даже бывалого гурмана. Разнообразные салаты, первые блюда, мясные стейки, рыбные блюда, блюда с морепродуктами, сэндвичи и нежнейшие десерты от кондитера нашей сети.</p>
+                        <p>И наша гордость — ароматный крепкий и вкуснейший кофе OMNI. Кроме того, на нашей кухне работает шеф-повар и по четвергам радует всех гастрономическими сетами — пальчики оближешь! Приглашаем всех любителей вкусной еды попробовать что-то новое!</p>
+                    </div>
+                    <div class="cart-place-info__delivery cart-place-info__block">
+                        <h3 class="cart-place-info__title">доставка готовых блюд</h3>
+                        <p>Доставка осуществляется по Армавиру, бесплатно от 400 рублей! При заказе менее чем 400 рублей — достЗарегиставка 60 рублей.</p>
+                    </div>
+                    <div class="cart-place-info__filter cart-place-info__block">
+                        <h3 class="cart-place-info__title">информация</h3>
+                        <ul>
+                            <li><a href="#">Средний чек 500руб.</a></li>
+                            <li><a href="#">Wi-Fi</a></li>
+                            <li><a href="#">Европейская кухня</a></li>
+                            <li><a href="#">Итальянская кухня</a></li>
+                            <li><a href="#">Японская кухня</a></li>
+                            <li><a href="#">Вегетарианское меню</a></li>
+                            <li><a href="#">Винная карта</a></li>
+                            <li><a href="#">Еда с собой</a></li>
+                            <li><a href="#">Заказ столиков</a></li>
+                            <li><a href="#">Постное меню</a></li>
+                            <li><a href="#">VIP-зал</a></li>
+                            <li><a href="#">Летняя терраса</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-cart-wrapper">
+                        <a href="#" class="btn-cart">показать на карте</a>
+                    </div>
+                </div>
+
+
+                <div class="cart-place__stock clearfix">
+                    <a href="images/stock-first.png" rel="stock" class="fancybox"><img src="images/stock-first.png" alt=""></a>
+                    <a href="images/stock-second.png" rel="stock" class="fancybox"><img src="images/stock-second.png" alt=""></a>
+                    <a href="images/stock-third.png" rel="stock" class="fancybox"><img src="images/stock-third.png" alt=""></a>
+                </div>
+
+            </div>
+
+            <div class="maps">
+                <div class="maps-wrapper">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                </div>
+            </div>
+
+            <div class="push-left w100">
+                <div class="cart-place__comment clearfix">
+                    <div class="cart-place__comment--btn push-right">
+                        <a href="#add-comment" class="btn-add-comment fancybox">написать отзыв</a>
+                        <a href="#modal-new__registration" class="btn-all-comment fancybox">все отзывы</a>
+                    </div>
+                    <div class="w100 push-left block-written-comment">
+                        <form >
+                            <textarea name="" id="" placeholder="Сообщение"></textarea>
+                            <button class="btn-written-comment">Отправить</button>
+                        </form>
+                    </div>
+                    <div class="w100 push-left">
+                        <div class="comment-item clearfix">
+                            <div class="comment-ava push-left">
+                                <img src="images/comment-ava.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="comment-item-body push-left">
+                               <header>
+                                   <div class="push-left">
+                                       <h3>лариса___</h3>
+                                       <div class="ratting">
+                                           <span class="ratting-star"></span>
+                                           <span class="ratting-star"></span>
+                                           <span class="ratting-star"></span>
+                                           <span class="ratting-no"></span>
+                                           <span class="ratting-no"></span>
+                                       </div>
+                                   </div>
+                                  <div class="push-right">
+                                      <div class="date">Май 10, 2016</div>
+                                  </div>
+                               </header>
+                               <p class="comment-txt">Посетили California Cafe . Повар приготовил отменные фетучини с грибами и очень вкусные английские блинчики на десерт, ребёнок остался доволен бургером с картошкой фри и разными соусами.  Но обслуживание оставляет желать лучшего. Долго ждали заказ.</p>
+                                <div class="w100 push-right">
+                                    <a href="#" class="btn-reply push-right">Ответить</a>
+                                </div>
+                            </div>
+                            <div class="wrapper-answer push-left">
+                                <div class="comment-answer ">
+                                    <div class="comment-ava push-left">
+                                        <img src="images/logo-company.png" alt="" class="img-responsive">
+                                    </div>
+                                    <div class="comment-item-body push-left">
+                                        <header>
+                                            <div class="push-left">
+                                                <h3>Ресторан California Cafe </h3>
+                                            </div>
+                                        </header>
+                                        <p class="comment-txt">Спасибо за ваш отзыв! К сожалению, ответа на ваш отзыв от ресторана мы так и не получили. Просим извинения за действия ресторана, надеемся, что подобная ситуация больше не повторится. С уважением, команда Ресторана.</p>
+                                        <div class="w100 push-right">
+                                            <a href="#" class="btn-reply push-right">Ответить</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                        <div class="comment-item clearfix">
+                            <div class="comment-ava push-left">
+                                <img src="images/comment-ava.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="comment-item-body push-left">
+                                <header>
+                                    <div class="push-left">
+                                        <h3>лариса___</h3>
+                                        <div class="ratting">
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-no"></span>
+                                            <span class="ratting-no"></span>
+                                        </div>
+                                    </div>
+                                    <div class="push-right">
+                                        <div class="date">Май 10, 2016</div>
+                                    </div>
+                                </header>
+                                <p class="comment-txt">Посетили California Cafe . Повар приготовил отменные фетучини с грибами и очень вкусные английские блинчики на десерт, ребёнок остался доволен бургером с картошкой фри и разными соусами.  Но обслуживание оставляет желать лучшего. Долго ждали заказ.</p>
+                                <div class="w100 push-right">
+                                    <a href="#" class="btn-reply push-right">Ответить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-item clearfix">
+                            <div class="comment-ava push-left">
+                                <img src="images/comment-ava.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="comment-item-body push-left">
+                                <header>
+                                    <div class="push-left">
+                                        <h3>лариса___</h3>
+                                        <div class="ratting">
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-no"></span>
+                                            <span class="ratting-no"></span>
+                                        </div>
+                                    </div>
+                                    <div class="push-right">
+                                        <div class="date">Май 10, 2016</div>
+                                    </div>
+                                </header>
+                                <p class="comment-txt">Посетили California Cafe . Повар приготовил отменные фетучини с грибами и очень вкусные английские блинчики на десерт, ребёнок остался доволен бургером с картошкой фри и разными соусами.  Но обслуживание оставляет желать лучшего. Долго ждали заказ.</p>
+                                <div class="w100 push-right">
+                                    <a href="#" class="btn-reply push-right">Ответить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-item clearfix">
+                            <div class="comment-ava push-left">
+                                <img src="images/comment-ava.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="comment-item-body push-left">
+                                <header>
+                                    <div class="push-left">
+                                        <h3>лариса___</h3>
+                                        <div class="ratting">
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-star"></span>
+                                            <span class="ratting-no"></span>
+                                            <span class="ratting-no"></span>
+                                        </div>
+                                    </div>
+                                    <div class="push-right">
+                                        <div class="date">Май 10, 2016</div>
+                                    </div>
+                                </header>
+                                <p class="comment-txt">Посетили California Cafe . Повар приготовил отменные фетучини с грибами и очень вкусные английские блинчики на десерт, ребёнок остался доволен бургером с картошкой фри и разными соусами.  Но обслуживание оставляет желать лучшего. Долго ждали заказ.</p>
+                                <div class="w100 push-right">
+                                    <a href="#" class="btn-reply push-right">Ответить</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+	</main>
+
+
+    <footer>
+		<div class="container">
+			<div class="footer-wrap">
+				<div class="footer-logo">
+                    <a href="#"><img src="images/footer-logo.png" alt=""></a>
+					<div class="copy-right Roboto400">&copy; 2016. Все права защищены</div>
+				</div>
+
+				<div class="footer-list Roboto400">
+					<ul>
+						<li><a href="#">рекламодателям</a></li>
+						<li><a href="#">соглашения и условия</a></li>
+						<li><a href="#">контакты</a></li>
+						<li><a href="#">о нас</a></li>
+					</ul>
+				</div>
+
+				<div class="social">
+					<a href="#" class="vk-soc">	</a>
+					<a href="#" class="tw-soc">	</a>
+					<a href="#" class="fb-soc">	</a>
+					<a href="#" class="ok-soc">	</a>
+                   <div class="logo-web-wrapper">
+                       <a href="#" class="logo-web"></a>
+                   </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <div class="modal write-comment" id="add-comment">
+        <a href="#" class="close-modal"></a>
+        <header class="clearfix">
+            <div class="wrapper">
+                <h3>Задать вопрос владельцу</h3>
+                <h4>(только для зарегистрированных  пользователей)</h4>
+                <form>
+                    <textarea name="" id="" cols="30" rows="7" placeholder="Сообщение"></textarea>
+                    <button class="btn-yellow">отправить</button>
+                </form>
+            </div>
+        </header>
+        <div class="form-bottom clearfix">
+            <form action="">
+                <div class="input-group clearfix">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="input-group clearfix">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="w100 clearfix">
+                    <button class="btn-grey dib">Войти</button>
+                    <span class="dib txt">или</span>
+                    <a href="#" class="dib link-reg">Зарегистрироваться</a>
+                </div>
+                <div class="w100 clearfix social-enter">
+                    <span class="dib txt">Войти через</span>
+                    <a href="#" class="vk-icon dib social-ic"></a>
+                    <a href="#" class="fb-icon dib social-ic"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal write-comment" id="modal-new__registration">
+    <a href="#" class="close-modal"></a>
+    <header class="clearfix">
+        <div class="wrapper">
+            <h3>Чтобы проголосовать зарегистрируйтесь</h3>
+        </div>
+    </header>
+    <div class="form-bottom clearfix">
+        <form action="">
+            <div class="input-group clearfix">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input-group clearfix">
+                <label for="password">Пароль</label>
+                <input type="password" id="password">
+            </div>
+            <div class="w100 clearfix">
+                <button class="btn-grey dib">Войти</button>
+                <span class="dib txt">или</span>
+                <a href="#" class="dib link-reg">Зарегистрироваться</a>
+            </div>
+            <div class="w100 clearfix social-enter">
+                <span class="dib txt">Войти через</span>
+                <a href="#" class="vk-icon dib social-ic"></a>
+                <a href="#" class="fb-icon dib social-ic"></a>
+            </div>
+        </form>
+    </div>
+</div>
+    <div class=" modal modal-registration" id="modal-registration">
+    <a href="#" class="close-modal"></a>
+    <h3>Вход</h3>
+    <header class="clearfix">
+        <p class="title"><span>вход через социальные сети</span></p>
+    </header>
+    <div class="social-modal">
+        <a href="#" class="tw">twitter</a>
+        <a href="#" class="fb">facebook</a>
+        <a href="#" class="vk">вконтакте</a>
+        <a href="#" class="gl">google</a>
+    </div>
+    <header class="clearfix">
+        <p class="title title-email"><span>или через e-mail</span></p>
+    </header>
+    <form class="clearfix">
+        <div class="wrapper-input">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Пароль">
+        </div>
+        <div class="checkbox-wrapper">
+            <input type="checkbox" id="remeber">
+            <label for="remeber">Запомнить меня</label>
+        </div>
+        <div class="wrapper-btn clearfix">
+            <button class="dib">Войти</button>
+            <span class="dib">или</span>
+            <a href="#" class="dib">Зарегистрироваться</a>
+        </div>
+    </form>
+</div>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="path/datepicker/js/jquery.pickmeup.js"></script>
+    <script type="text/javascript" src="path/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/tabs.js"></script>
+    <script>
+        $(document).ready(function(){
+            var options_fancy_modal = {
+                openEffect: 'none',
+                closeEffect: 'none',
+                wrapCSS: 'perspective-animation',
+                closeBtn: false,
+                tpl: {
+                    wrap     : '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner fancybox-inner-visible test"></div></div></div></div>'
+                },
+                afterShow: function(){
+                    setTimeout(function(){
+                        $('.modal').addClass('open-modal');
+                    },200);
+                },
+                beforeClose: function(){
+                    $('.modal').removeClass('open-modal');
+                }
+            };
+
+
+            $('.fancybox').fancybox(options_fancy_modal);
+
+            $('.close-modal').click(function(e){
+                e.preventDefault();
+                $.fancybox.close();
+            });
+        })
+    </script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

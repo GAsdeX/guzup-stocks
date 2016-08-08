@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Армавир</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_main.css">
+    <link rel="stylesheet" href="path/datepicker/css/pickmeup.css">
+</head>
+<body>
+<!--------HEADER-------------->
+    <header id="header">
+    <section class="head-top">
+        <div class="container clearfix">
+            <div class="push-left">
+                <a href="#"><img class="logo" src="images/logo.png" alt=""></a>
+                <p class="top-text Roboto300">Lorem ipsum dolor sit amet, nostrud periculis sit eu</p>
+            </div>
+
+            <div class="wether-enter push-right">
+                <a class="weather RobotoCons400" href="#">
+                    <img src="images/sun-cloud.png" alt="">
+                    <span class="weather-text">Облачно +32 <sup>&deg;</sup></span>
+                </a>
+                <a class="enter Roboto400" href="#">
+                    <img src="images/key.png" alt="">
+                    <span>войти</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="head-menu-substrate hide-menu hide-search-s">
+        <section class="menu">
+            <div class="relate container clearfix">
+                <div id="menu_btn" class="menu-btn">
+                    <span id="nav-toggle"><span></span></span>
+                    <!-- <span>Меню</span> -->
+                </div>
+
+                <div class="search-wrap push-right">
+                    <form action="">
+							<span class="search-ic_wrap">
+								<img src="images/search.png" alt="">
+							</span>
+                        <input class="search hide-search trans-delay02" type="text" placeholder="поиск">
+                    </form>
+                </div>
+
+                <ul class="main-menu RobotoCons400 hide-menu">
+                    <li><a href="#" class="active">заведения</a></li>
+                    <li><a href="#">события</a></li>
+                    <li><a href="#">акции</a></li>
+                    <li><a href="#">места</a></li>
+                    <li><a href="#">мероприятия</a></li>
+                </ul>
+
+
+
+            </div>
+        </section>
+    </section>
+</header>
+
+<!----------MAIN CONTENT----------------------------->
+	<main class="page">
+
+        <div class="container clearfix">
+
+            <div class="page_header clearfix">
+                <div class="push-left w50">
+                    <h2 class="page-title RobotoCons700">Мероприятия и события</h2>
+                    <ul class="breadcrumbs-date clearfix">
+                        <li><a href="#">Сегодня</a></li>
+                        <li><a href="#">Июль</a></li>
+                        <li><a href="#">Август</a></li>
+                        <li><input class="date" value="Выбрать другой день"></li>
+                    </ul>
+                </div>
+
+                <div class="filter_category push-right">
+                    <a href="#" class="filter_item">Архитектура</a>
+                    <a href="#" class="filter_item active">Детям</a>
+                    <a href="#" class="filter_item">Замок</a>
+                    <a href="#" class="filter_item">Здоровье</a>
+                    <a href="#" class="filter_item">Еда</a>
+                    <a href="#" class="filter_item">Музеи</a>
+                    <a href="#" class="filter_item active">Фестивали</a>
+                    <a href="#" class="filter_item">Экскурсия</a>
+                    <a href="#" class="filter_item">Концерты</a>
+                    <a href="#" class="filter_item">Мастеркласс</a>
+                    <a href="#" class="filter_item">Театр</a>
+                </div>
+            </div>
+
+            <div class="tabs">
+
+                <div class="tabs-header">
+                    <div class="page__block-head push-right future-event">
+                        <h3>будущие</h3>
+                        <a href="#" class="more">все</a>
+                    </div>
+
+                    <div class="page__block-head push-left last-event">
+                        <h3>прошедшие</h3>
+                        <a href="#" class="more">все</a>
+                    </div>
+
+                </div>
+
+                <div class="tabs-body">
+                    <!------------------Future---------------------------------------------------->
+
+                    <div class="page__block-future">
+
+
+                        <div class="block-future__cart-item clearfix cart-item-wrapper">
+
+                            <div class="future__cart-item-left">
+                                <img src="images/block-future__cart-item.png" alt="" class="img-responsive">
+                                <div class="date">30 июля -1 августа 2016</div>
+                            </div>
+
+                            <div class="future__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset.</p>
+
+                                <a href="#" class="place-name">ночной клуб "синий страус"</a>
+
+                                <div class="future__cart-item--contact">
+                                    <p class="address">просп. Сельмаш, 3</p>
+                                    <a href="tel:+78632524409">+7 (863) 252-44-09</a>
+                                    <a href="tel:+78632524409">+7 (863) 229-87-56</a>
+                                </div>
+                                <a href="#" class="btn-cart">показать на карте</a>
+                            </div>
+
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                        <div class="block-future__cart-item clearfix cart-item-wrapper">
+
+                            <div class="future__cart-item-left">
+                                <img src="images/block-future__cart-item.png" alt="" class="img-responsive">
+                                <div class="date">30 июля -1 августа 2016</div>
+                            </div>
+
+                            <div class="future__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset.</p>
+
+                                <a href="#" class="place-name">ночной клуб "синий страус"</a>
+
+                                <div class="future__cart-item--contact">
+                                    <p class="address">просп. Сельмаш, 3</p>
+                                    <a href="tel:+78632524409">+7 (863) 252-44-09</a>
+                                    <a href="tel:+78632524409">+7 (863) 229-87-56</a>
+                                </div>
+                                <a href="#" class="btn-cart">показать на карте</a>
+                            </div>
+
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                        <div class="block-future__cart-item clearfix cart-item-wrapper">
+
+                            <div class="future__cart-item-left">
+                                <img src="images/block-future__cart-item.png" alt="" class="img-responsive">
+                                <div class="date">30 июля -1 августа 2016</div>
+                            </div>
+
+                            <div class="future__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset.</p>
+
+                                <a href="#" class="place-name">ночной клуб "синий страус"</a>
+
+                                <div class="future__cart-item--contact">
+                                    <p class="address">просп. Сельмаш, 3</p>
+                                    <a href="tel:+78632524409">+7 (863) 252-44-09</a>
+                                    <a href="tel:+78632524409">+7 (863) 229-87-56</a>
+                                </div>
+                                <a href="#" class="btn-cart">показать на карте</a>
+                            </div>
+
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                        <div class="block-future__cart-item clearfix cart-item-wrapper">
+
+                            <div class="future__cart-item-left">
+                                <img src="images/block-future__cart-item.png" alt="" class="img-responsive">
+                                <div class="date">30 июля -1 августа 2016</div>
+                            </div>
+
+                            <div class="future__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset.</p>
+
+                                <a href="#" class="place-name">ночной клуб "синий страус"</a>
+
+                                <div class="future__cart-item--contact">
+                                    <p class="address">просп. Сельмаш, 3</p>
+                                    <a href="tel:+78632524409">+7 (863) 252-44-09</a>
+                                    <a href="tel:+78632524409">+7 (863) 229-87-56</a>
+                                </div>
+                                <a href="#" class="btn-cart">показать на карте</a>
+                            </div>
+
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!----------Last------------------------------------------>
+
+                    <div class="clearfix page__block-left push-left">
+
+                        <div class="aside__cart-item cart-item-wrapper">
+                            <img src="images/aside-cart-item.png" alt="" class="img-responsive">
+                            <div class="aside__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg. </p>
+                                <div class="aside__cart-item-body_bottom">
+                                    <div class="date">22 июня 2016</div>
+                                    <a href="#" class="name">Клуб Маэстро</a>
+                                </div>
+                                <div class="btn-cart-wrapper">
+                                    <a href="#" class="btn-cart">на карте</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                        <div class="aside__cart-item cart-item-wrapper">
+                            <img src="images/aside-cart-item.png" alt="" class="img-responsive">
+                            <div class="aside__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg</p>
+                                <div class="aside__cart-item-body_bottom">
+                                    <div class="date">22 июня 2016</div>
+                                    <a href="#" class="name">Клуб Маэстро</a>
+                                </div>
+                                <div class="btn-cart-wrapper">
+                                    <a href="#" class="btn-cart">на карте</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                        <div class="aside__cart-item cart-item-wrapper">
+                            <img src="images/aside-cart-item.png" alt="" class="img-responsive">
+                            <div class="aside__cart-item-body">
+                                <h4>Lorem ipsum dolor sit amet, hinc ferri sed no</h4>
+                                <p>Per id assum scriptorem, eam ad iracundia prodesset. Ut vim reg</p>
+                                <div class="aside__cart-item-body_bottom">
+                                    <div class="date">22 июня 2016</div>
+                                    <a href="#" class="name">Клуб Маэстро</a>
+                                </div>
+                                <div class="btn-cart-wrapper">
+                                    <a href="#" class="btn-cart">на карте</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="maps">
+                            <div class="maps-wrapper">
+                                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=c2EcoQsJtWFYJbiMA6YsDID5-G3k0rCS&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+	</main>
+
+
+	<footer>
+		<div class="container">
+			<div class="footer-wrap">
+				<div class="footer-logo">
+                    <a href="#"><img src="images/footer-logo.png" alt=""></a>
+					<div class="copy-right Roboto400">&copy; 2016. Все права защищены</div>
+				</div>
+
+				<div class="footer-list Roboto400">
+					<ul>
+						<li><a href="#">рекламодателям</a></li>
+						<li><a href="#">соглашения и условия</a></li>
+						<li><a href="#">контакты</a></li>
+						<li><a href="#">о нас</a></li>
+					</ul>
+				</div>
+
+				<div class="social">
+					<a href="#" class="vk-soc">	</a>
+					<a href="#" class="tw-soc">	</a>
+					<a href="#" class="fb-soc">	</a>
+					<a href="#" class="ok-soc">	</a>
+                   <div class="logo-web-wrapper">
+                       <a href="#" class="logo-web"></a>
+                   </div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="path/datepicker/js/jquery.pickmeup.js"></script>
+    <script src="js/tabs.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
